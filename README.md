@@ -2,9 +2,9 @@
 Teste de programação 
 
 ## O que foi feito de inicio 
-$ npm install express --save
-$ npm install -g nodemon
- 
+   $ npm install express --save
+   $ npm install -g nodemon
+   
 
 ## Linguagem usadas
 
