@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
+// const cors = require("cors")
 
-const homeRouter = require('./routes/home')
+const homeRouter = require('./routes/homeRoutes')
 
+// app.use(cors)
 app.use(homeRouter)
 
 app.get('/', (req,res)=>{  //caminho, requisição, resposta
