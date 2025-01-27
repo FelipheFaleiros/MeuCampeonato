@@ -17,7 +17,7 @@ Teste de programação
 
 ## Instruções para instalar e rodar
 
-    '$ npm init'
+    '$ npm i'
     '$ npm run dev'
     isso feito no terminal dentro da pasta BackEnd
 
