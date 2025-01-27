@@ -2,10 +2,11 @@ const express = require('express')
 const app = express()
 // const cors = require("cors")
 
-const homeRouter = require('./routes/homeRoutes')
+const timeRouter = require('./routes/timeRoute')
 
+app.use(express.json())
 // app.use(cors)
-app.use(homeRouter)
+app.use(timeRouter)
 
 app.get('/', (req,res)=>{  //caminho, requisição, resposta
     res.send('<h1 class="h3 mb-3 font-weight-normal">Meu Campeonato.</h1>')
@@ -17,6 +18,6 @@ app.get('/sobre', (req,res)=> {
 
 
 
-app.listen(3001, ()=>{
-    console.log('server está na port 3001') //essa mensagem só aparece no console
+app.listen(3000, ()=>{//if error in node, change the output port
+    console.log('server está na port 3000 defunt ') //essa mensagem só aparece no console
 })

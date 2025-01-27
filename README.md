@@ -6,6 +6,8 @@ Teste de programação
       $ npm install -g nodemon
       $ npm i cors   
       $ npm i mysql
+      $ npm install mysql
+
 
 ## Linguagem usadas
 

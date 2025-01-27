@@ -1,9 +1,9 @@
 const express = require('express')
 const router =  express.Router()
-const homeController = require('../controllers/homeController')
+const timeController = require('../controllers/timeController')
 
 // router.get('/home', homeController.getHome)
-router.post('/home', homeController.postHome)
+router.post('/time', timeController.postTime)
 
 
 module.exports = router
